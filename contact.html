@@ -20,23 +20,30 @@
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>Contact</h1>
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="This contact form does not work as I am still learning to code. Please email me at sol.han75@gmail.com or connect with me via LinkedIn" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+  
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+
     </section>
     
     <section class="sidebar">
@@ -55,6 +62,8 @@
       </div>
     </section>
   </div>
+
+
   <footer>
     <div class="container">
       Copyright &copy; 2017 Sarah Han
